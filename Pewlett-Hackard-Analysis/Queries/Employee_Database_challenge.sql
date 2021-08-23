@@ -115,3 +115,23 @@ WHERE (de.to_date = '9999-01-01')
 ORDER BY emp_no;
 
 SELECT * FROM mentor_eligibility;
+
+SELECT DISTINCT ON (e.emp_no) e.emp_no, e.first_name, e.last_name, e.birth_date, de.from_date, de.to_date, tit.title
+FROM employees AS e
+LEFT JOIN titles AS tit
+ON (e.emp_no = tit.emp_no)
+LEFT JOIN dept_emp AS de
+ON (e.emp_no = de.emp_no)
+WHERE (de.to_date = '9999-01-01')
+	AND (e.birth_date BETWEEN '1930-01-01' AND '9999-01-01')
+ORDER BY emp_no;
+
+SELECT DISTINCT ON (e.emp_no) e.emp_no, e.first_name, e.last_name, e.birth_date, de.from_date, de.to_date, tit.title
+FROM employees AS e
+LEFT JOIN titles AS tit
+ON (e.emp_no = tit.emp_no)
+LEFT JOIN dept_emp AS de
+ON (e.emp_no = de.emp_no)
+WHERE (de.to_date = '9999-01-01')
+	AND (e.birth_date BETWEEN '1965-01-01' AND '1975-12-31')
+ORDER BY emp_no;
