@@ -20,11 +20,13 @@ Our task for this week was to help out at Pewlett Hackard in figuring out how ma
 
 ## Summary
    * How many roles will need to be filled as the "silver tsunami" begins to make an impact? 
-         * 90,398 employees will retire within the __*Silver Tsunami of 1955*__. A 1 to 1 replacement would be a minimum, but as a company wants to grow, it must also increase the number of employees, so a larger ratio must be the true goal.
+         
+        * 90,398 employees will retire within the __*Silver Tsunami of 1955*__. A 1 to 1 replacement would be a minimum, but as a company wants to grow, it must also increase the number of employees, so a larger ratio must be the true goal.
 
 ![Count of Retiring Employees](Pewlett-Hackard-Analysis/Write-Up_Resources/retirement_titles_table.png)
 
    * Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
-         * Depending on how long it takes to mentor/train a single new employee, with a timeline of 10 a year constituting a little over a month of personal training by a mentor, it also depends on how much training is *REQUIRED*. *IF* one month is enough, then it is within reason to believe that PH can keep its employee count consistent. However, as I looked into the data given at the upcoming __*Silver Tsunamis of 1965 and 1975*__ the number of young employees eligible for mentoring is nonexistent. PH *MUST* focus on also hiring younger talent while there's still mentorship available, or else the company will shrink with time.
+         
+        * Depending on how long it takes to mentor/train a single new employee, with a timeline of 10 a year constituting a little over a month of personal training by a mentor, it also depends on how much training is *REQUIRED*. *IF* one month is enough, then it is within reason to believe that PH can keep its employee count consistent. However, as I looked into the data given at the upcoming __*Silver Tsunamis of 1965 and 1975*__ the number of young employees eligible for mentoring is nonexistent. PH *MUST* focus on also hiring younger talent while there's still mentorship available, or else the company will shrink with time.
 
 ![Youth Needed](Pewlett-Hackard-Analysis/Write-Up_Resources/younger_tsunami.png)
